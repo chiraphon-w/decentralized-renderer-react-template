@@ -1,5 +1,5 @@
 {
-  "name": "Renderer",
+  "name": "decentralized-renderer-react-template",
   "version": "0.0.0-development",
   "private": true,
   "main": "build/index.js",
