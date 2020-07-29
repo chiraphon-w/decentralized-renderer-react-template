@@ -3,16 +3,14 @@ import { Document } from "@govtechsg/decentralized-renderer-react-components";
 export interface CustomTemplateCertificate extends Document {
   name: string;
   recipient: {
-    name: string,
-    dname: string
+    name: string
   };
 }
 
 export const customTemplateCertificate: CustomTemplateCertificate = {
-  name: "SURANAREE UNIVERSITY OF TECHNOLOGY",
+  name: "OpenAttestation Tutorial Certificate of Completion",
   recipient: {
-    name: "test 1",
-    dname: "Bachelor of Engineering Program"
+    name: "John Doe"
   },
   $template: {
     name: "COC",
